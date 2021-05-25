@@ -17,7 +17,7 @@ input, button {
     margin: auto;
     display: flex;
     padding-top: 30px;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -28,8 +28,6 @@ input, button {
 
 .header__logo {
     width: 150px;
-    -webkit-filter: invert(1);
-    filter: invert(1);
 }
 
 .header__logo-sub {
@@ -54,10 +52,11 @@ input, button {
 }
 
 .header__btn {
-    font-size: 0.8em;
+    font-size: 1em;
     width: 150px;
     height: 50px;
-    background-color: #ffdb4d;
+    background: linear-gradient(to top, white, red, white);
     border-radius: 2px;
     cursor: pointer;
+
 }
